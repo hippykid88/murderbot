@@ -20,15 +20,15 @@ class Commands():
         """-When did this all start"""
         await ctx.channel.send("Murders Inc was founded in 1997")
 
-    @commands.command(aliases=['chink '])
+    @commands.command(aliases=['chink'])
     async def Chink(self, ctx):
-        """-Is this racist.lets find out"""
-        await ctx.channel.send("The Sound two swords make when they clash together - according to Jack")
+        """-Is this racist? lets find out"""
+        await ctx.channel.send("The sound two swords make when they clash together - according to Jack")
 
     @commands.command(aliases=['joeling'])
     async def Joeling(self, ctx):
        """-yup its this"""
-       await ctx.channel.send("joeling is the act of masturbating while on vent")
+       await ctx.channel.send("Joeling is the act of masturbating while on vent")
 
     @commands.command(aliases=['oliver'])
     async def Oliver(self, ctx):
@@ -55,6 +55,16 @@ class Commands():
     async def Sheriff(self, ctx):
        """-Good times"""
        await ctx.channel.send('A good Sheriff always shoots his own deputy..twice for good measure')
+
+    @commands.command(aliases=['will'])
+    async def Will(self, ctx):
+        """-The New guys in town"""
+        await ctx.channel.send('Let me Know what I should put here young murderer')
+
+    @commands.command(aliases=['dillon'])
+    async def Dillon(self, ctx):
+        """-Mr Silent"""
+        await ctx.channel.send('one of the season members of Murderers Inc, quite but will fuck you up')
 
 def setup(bot):
     bot.add_cog(Commands(bot))
