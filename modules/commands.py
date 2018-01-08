@@ -66,8 +66,8 @@ class Commands():
         """-Mr Silent"""
         await ctx.channel.send('one of the season members of Murderers Inc, quite but will fuck you up')
 
-    @commands.command(aliases=['exile '])
-    async def Exile (self, ctx):
+    @commands.command(aliases=['exile'])
+    async def Exile(self, ctx):
         """-Can be a Dick for sure"""
         await ctx.channel.send('Drunkenly shouts on vent “GET TO THE FUCKING LUMBER MINES!”')
 
