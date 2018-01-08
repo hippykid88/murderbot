@@ -12,7 +12,7 @@ class Commands():
 
     @commands.command(aliases=['murder'])
     async def Murder(self, ctx):
-        """-What do the children whisper?"""
+        """-The children whisper..."""
         await ctx.channel.send("Murder, Murder, Murder")
 
     @commands.command(aliases=['history'])
@@ -22,7 +22,7 @@ class Commands():
 
     @commands.command(aliases=['chink'])
     async def Chink(self, ctx):
-        """-Is this racist? lets find out"""
+        """-Is this racist?"""
         await ctx.channel.send("The sound two swords make when they clash together - according to Jack")
 
     @commands.command(aliases=['joeling'])
